@@ -1,0 +1,54 @@
+{
+  "name": "benisonbns.com",
+  "version": "1.0.0",
+  "keywords": [
+    "Food",
+    "Beverage"
+  ],
+  "author": "Anthony",
+  "license": "ISC",
+  "description": "BENISON FOOD & BEVERAGE COMPANY LIMITED",
+  "scripts": {
+    "prebuild": "rimraf dist benisonbns.com .parcel-cache parcel-bundle-reports",
+    "dev": "parcel --open opera --port 666",
+    "build": "parcel build --public-url ./ --detailed-report 100"
+  },
+  "source": [
+    "src/about.html",
+    "src/contact.html",
+    "src/index.html",
+    "src/products.html",
+    "src/media.html"
+  ],
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "targets": {
+    "default": {
+      "includeNodeModules": true,
+      "distDir": "./benisonbns.com"
+    }
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "devDependencies": {
+    "@parcel/compressor-brotli": "^2.9.3",
+    "@parcel/compressor-gzip": "^2.9.3",
+    "@parcel/optimizer-cssnano": "^2.9.3",
+    "@parcel/optimizer-esbuild": "^2.9.3",
+    "@parcel/reporter-bundle-analyzer": "^2.9.3",
+    "parcel": "^2.9.3",
+    "posthtml-doctype": "^1.1.1",
+    "rimraf": "^5.0.1",
+    "sharp": "^0.31.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.1",
+    "jquery": "^3.7.1",
+    "lightbox2": "^2.11.4"
+  }
+}
