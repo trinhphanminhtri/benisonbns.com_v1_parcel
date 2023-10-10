@@ -13,3 +13,7 @@ git push -u origin main
 git remote add origin git@github.com:trinhphanminhtri/benisonbns.com_v1_parcel.git
 git branch -M main
 git push -u origin main
+
+# Remove some stuffs
+
+@parcel/compressor-brotli
