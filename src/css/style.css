@@ -182,14 +182,14 @@ img {
   text-transform: uppercase;
   color: #174821;
   font-size: 2.2rem;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .subTitle {
   padding-bottom: 1.4rem;
   color: #174821;
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 500;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -209,19 +209,37 @@ p {
   padding: 1.2rem 2.8rem;
   border-radius: 0.4rem;
   letter-spacing: 0.2rem;
-  color: #f5ff35;
+  color: #174821;
+  background-color: rgba(231, 238, 232, 0.734);
 }
 
 .btn:hover {
   background-color: #174821;
-  color: #f5ff35;
-  transition: all 0.4s;
+  color: #ffffff;
+  transition: all 0.4s ease-in-out;
+}
+
+.card-title {
+  padding-bottom: 1.4rem;
+  text-transform: uppercase;
+  color: #174821;
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 
 .card-text {
-  line-height: 1.6;
+  display: -webkit-box;
+  min-height: 4.8rem;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: 2;
+  line-height: 2.4rem;
+
   font-size: 1.6rem;
-  text-align: center;
+  text-align: left;
+  margin-bottom: 2rem;
 }
 
 section {
@@ -373,6 +391,17 @@ iframe {
   color: #174821;
   transition: all 0.4s;
 }
+
+.inner {
+  overflow: hidden;
+}
+.inner img {
+  transition: all 1.5s ease;
+}
+.inner:hover img {
+  transform: scale(1.5);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   #featured .featured-box {
