@@ -3,4 +3,5 @@ benisonbns.com
 dist
 node_modules
 parcel-bundle-reports
+*.zip
 
