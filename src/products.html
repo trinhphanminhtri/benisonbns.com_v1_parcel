@@ -101,7 +101,7 @@
             src="./img/company-logos/shop-on-shopee.webp"
             alt="online shopping"
           />
-          <h4>Online Shopee</h4>
+          <h5>Online Shopee</h5>
         </a>
       </div>
       <div class="featured-box">
@@ -114,7 +114,7 @@
             src="./img/company-logos/shop-on-lazada.webp"
             alt="online shopping"
           />
-          <h4>Online Lazada</h4>
+          <h5>Online Lazada</h5>
         </a>
       </div>
     </section>
@@ -122,25 +122,29 @@
 
     <!-- Product section -->
     <section id="product">
-      <div class="container">
+      <div class="container mt-5">
         <!-- Danh mục sản phẩm -->
-        <div class="row text-center">
+        <div class="row mt-5">
           <div class="col-12 section-intro">
             <div class="topic">Danh mục sản phẩm</div>
             <div class="hline mb-5"></div>
           </div>
           <!-- Nho khô -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/products/nho.webp"
-                alt="Dried Grapes 250gr"
-                data-bs-toggle="modal"
-                data-bs-target="#myModalDriedGrapes250gr"
-              />
-              <h4 class="card-text mt-2">Nho khô Úc</h4>
-              <p class="card-text text-danger fw-bold">86,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/products/nho.webp"
+                  alt="Dried Grapes 250gr"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModalDriedGrapes250gr"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Nho khô Úc</h5>
+                <p class="card-text text-danger">86,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="myModalDriedGrapes250gr">
@@ -148,7 +152,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">Nho khô Úc</h4>
+                    <h5 class="modal-title">Nho khô Úc</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -161,7 +165,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -169,18 +173,24 @@
               </div>
             </div>
           </div>
+          <!-- End of Nho khô -->
+
           <!-- Hạnh nhân rang muối -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/products/hanh-nhan.webp"
-                alt="Roasted Almond 250gr"
-                data-bs-toggle="modal"
-                data-bs-target="#myModalRoastedAlmond250"
-              />
-              <h4 class="card-text mt-2">Hạnh nhân rang muối</h4>
-              <p class="card-text text-danger fw-bold">156,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/products/hanh-nhan.webp"
+                  alt="Roasted Almond 250gr"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModalRoastedAlmond250"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Hạnh nhân rang muối</h5>
+                <p class="card-text text-danger">156,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="myModalRoastedAlmond250">
@@ -188,7 +198,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">Hạnh nhân rang muối</h4>
+                    <h5 class="modal-title">Hạnh nhân rang muối</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -201,7 +211,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -209,18 +219,24 @@
               </div>
             </div>
           </div>
+          <!-- Hạnh nhân rang muối -->
+
           <!-- Ngũ cốc rang mật ong -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/products/ngu-coc.webp"
-                alt="Roasted Almond 250gr"
-                data-bs-toggle="modal"
-                data-bs-target="#myModalMuesli500"
-              />
-              <h4 class="card-text mt-2">Ngũ cốc rang mật ong</h4>
-              <p class="card-text text-danger fw-bold">205,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/products/ngu-coc.webp"
+                  alt="Roasted Almond 250gr"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModalMuesli500"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Ngũ cốc nướng mật ong</h5>
+                <p class="card-text text-danger">205,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="myModalMuesli500">
@@ -228,7 +244,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">Ngũ cốc rang mật ong</h4>
+                    <h5 class="modal-title">Ngũ cốc nướng mật ong</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -241,7 +257,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -249,23 +265,31 @@
               </div>
             </div>
           </div>
+          <!-- End of Ngũ cốc rang mật ong -->
+
           <!-- Unique Delicious 368 -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <img
-              class="card-body img-fluid img-thumbnail w-75"
-              src="./img/products/wine368.webp"
-              data-bs-toggle="modal"
-              data-bs-target="#myModalUniqueDelicious368"
-            />
-            <h4 class="card-text mt-2">Vang đỏ Unique Delicious 368</h4>
-            <p class="card-text text-danger fw-bold">689,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/products/wine368.webp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModalUniqueDelicious368"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Vang đỏ Unique Delicious 368</h5>
+                <p class="card-text text-danger">689,000 vnđ</p>
+              </div>
+            </div>
             <!-- The Modal -->
             <div class="modal fade" id="myModalUniqueDelicious368">
               <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">Vang đỏ Unique Delicious 368</h4>
+                    <h5 class="modal-title">Vang đỏ Unique Delicious 368</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -278,7 +302,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -286,23 +310,31 @@
               </div>
             </div>
           </div>
+          <!-- End of Unique Delicious 368 -->
+
           <!-- Ecstatic Passion 568 -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <img
-              class="card-body img-fluid img-thumbnail w-75"
-              src="./img/products/wine568.webp"
-              data-bs-toggle="modal"
-              data-bs-target="#myModalEcstaticPassion568"
-            />
-            <h4 class="card-text mt-2">Vang đỏ Ecstatic Passion 568</h4>
-            <p class="card-text text-danger fw-bold">689,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/products/wine568.webp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModalEcstaticPassion568"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Vang đỏ Ecstatic Passion 568</h5>
+                <p class="card-text text-danger">689,000 vnđ</p>
+              </div>
+            </div>
             <!-- The Modal -->
             <div class="modal fade" id="myModalEcstaticPassion568">
               <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">Vang đỏ Ecstatic Passion 568</h4>
+                    <h5 class="modal-title">Vang đỏ Ecstatic Passion 568</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -323,23 +355,31 @@
               </div>
             </div>
           </div>
+          <!-- End of Ecstatic Passion 568 -->
+
           <!-- Paradise Secret 666 -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <img
-              class="card-body img-fluid img-thumbnail w-75"
-              src="./img/products/wine666.webp"
-              data-bs-toggle="modal"
-              data-bs-target="#myModalParadiseSecret666"
-            />
-            <h4 class="card-text mt-2">Vang đỏ Paradise Secret 666</h4>
-            <p class="card-text text-danger fw-bold">1,652,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/products/wine666.webp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModalParadiseSecret666"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Vang đỏ Paradise Secret 666</h5>
+                <p class="card-text text-danger">1,652,000 vnđ</p>
+              </div>
+            </div>
             <!-- The Modal -->
             <div class="modal fade" id="myModalParadiseSecret666">
               <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">Vang đỏ Paradise Secret 666</h4>
+                    <h5 class="modal-title">Vang đỏ Paradise Secret 666</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -352,7 +392,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -360,24 +400,32 @@
               </div>
             </div>
           </div>
+          <!-- End of Paradise Secret 666 -->
+
           <!-- Premium Paradise 888 -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <img
-              class="card-body img-fluid img-thumbnail w-75"
-              src="./img/products/wine888.webp"
-              alt="Premium Paradise888"
-              data-bs-toggle="modal"
-              data-bs-target="#myModalPremiumParadise888"
-            />
-            <h4 class="card-text mt-2">Vang đỏ Premium Paradise 888</h4>
-            <p class="card-text text-danger fw-bold">2,066,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/products/wine888.webp"
+                  alt="Premium Paradise888"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModalPremiumParadise888"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Vang đỏ Premium Paradise 888</h5>
+                <p class="card-text text-danger">2,066,000 vnđ</p>
+              </div>
+            </div>
             <!-- The Modal -->
             <div class="modal fade" id="myModalPremiumParadise888">
               <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">Vang đỏ Premium Paradise 888</h4>
+                    <h5 class="modal-title">Vang đỏ Premium Paradise 888</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -390,7 +438,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -398,24 +446,32 @@
               </div>
             </div>
           </div>
+          <!-- End of Premium Paradise 888 -->
+
           <!-- Sparkling White Grape Juice -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <img
-              class="card-body img-fluid img-thumbnail w-75"
-              src="./img/products/Sparkling1079.webp"
-              alt="Sparkling White Grape Juice"
-              data-bs-toggle="modal"
-              data-bs-target="#myModalSparklingWhiteGrapeJuice"
-            />
-            <h4 class="card-text mt-2">Sparkling White Grape Juice</h4>
-            <p class="card-text text-danger fw-bold">306,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/products/Sparkling1079.webp"
+                  alt="Sparkling White Grape Juice"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModalSparklingWhiteGrapeJuice"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Sparkling White Grape Juice</h5>
+                <p class="card-text text-danger">306,000 vnđ</p>
+              </div>
+            </div>
             <!-- The Modal -->
             <div class="modal fade" id="myModalSparklingWhiteGrapeJuice">
               <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">Sparkling White Grape Juice</h4>
+                    <h5 class="modal-title">Sparkling White Grape Juice</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -428,7 +484,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -436,24 +492,32 @@
               </div>
             </div>
           </div>
+          <!-- End of Sparkling White Grape Juice -->
+
           <!-- Sparkling Dark Grape Juice -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <img
-              class="card-body img-fluid img-thumbnail w-75"
-              src="./img/products/sparkling1068.webp"
-              alt="Sparkling White Grape Juice"
-              data-bs-toggle="modal"
-              data-bs-target="#myModalSparklingDarkGrapeJuice"
-            />
-            <h4 class="card-text mt-2">Sparkling Dark Grape Juice</h4>
-            <p class="card-text text-danger fw-bold">306,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/products/sparkling1068.webp"
+                  alt="Sparkling White Grape Juice"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModalSparklingDarkGrapeJuice"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Sparkling Dark Grape Juice</h5>
+                <p class="card-text text-danger">306,000 vnđ</p>
+              </div>
+            </div>
             <!-- The Modal -->
             <div class="modal fade" id="myModalSparklingDarkGrapeJuice">
               <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">Sparkling Dark Grape Juice</h4>
+                    <h5 class="modal-title">Sparkling Dark Grape Juice</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -466,7 +530,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -474,24 +538,32 @@
               </div>
             </div>
           </div>
+          <!-- End of Sparkling Dark Grape Juice -->
+
           <!-- Bush Mallee Honey -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <img
-              class="card-body img-fluid img-thumbnail w-75"
-              src="./img/products/honey-mallee.webp"
-              alt="Bush Mallee320gram"
-              data-bs-toggle="modal"
-              data-bs-target="#myModalBushMalleeHoney"
-            />
-            <h4 class="card-text mt-2">Mật ong hoa Mallee</h4>
-            <p class="card-text text-danger fw-bold">306,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/products/honey-mallee.webp"
+                  alt="Bush Mallee320gram"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModalBushMalleeHoney"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Mật ong hoa Mallee</h5>
+                <p class="card-text text-danger">306,000 vnđ</p>
+              </div>
+            </div>
             <!-- The Modal -->
             <div class="modal fade" id="myModalBushMalleeHoney">
               <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">Mật ong hoa Mallee</h4>
+                    <h5 class="modal-title">Mật ong hoa Mallee</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -504,7 +576,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -512,25 +584,32 @@
               </div>
             </div>
           </div>
-          <!-- Meadow Limestone Coast Honey -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <img
-              class="card-body img-fluid img-thumbnail w-75"
-              src="./img/products/honey-meadow.webp"
-              alt="Bush Mallee320gram"
-              data-bs-toggle="modal"
-              data-bs-target="#myModalMeadowLimestoneCoastHoney"
-            />
-            <h4 class="card-text mt-2">Mật ong đồng cỏ</h4>
-            <p class="card-text text-danger fw-bold">490,000 vnđ</p>
+          <!-- End of Bush Mallee Honey -->
 
+          <!-- Meadow Limestone Coast Honey -->
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/products/honey-meadow.webp"
+                  alt="Bush Mallee320gram"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModalMeadowLimestoneCoastHoney"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Mật ong đồng cỏ</h5>
+                <p class="card-text text-danger">490,000 vnđ</p>
+              </div>
+            </div>
             <!-- The Modal -->
             <div class="modal fade" id="myModalMeadowLimestoneCoastHoney">
               <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">Mật ong đồng cỏ</h4>
+                    <h5 class="modal-title">Mật ong đồng cỏ</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -543,7 +622,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -551,25 +630,32 @@
               </div>
             </div>
           </div>
-          <!-- Orange Blossom Honey -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <img
-              class="card-body img-fluid img-thumbnail w-75"
-              src="./img/products/honey-orange.webp"
-              alt="Orange Blossom500gram"
-              data-bs-toggle="modal"
-              data-bs-target="#myModalOrangeBlossomHoney"
-            />
-            <h4 class="card-text mt-2">Mật ong hoa cam</h4>
-            <p class="card-text text-danger fw-bold">490,000 vnđ</p>
+          <!-- End of Meadow Limestone Coast Honey -->
 
+          <!-- Orange Blossom Honey -->
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/products/honey-orange.webp"
+                  alt="Orange Blossom500gram"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModalOrangeBlossomHoney"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Mật ong hoa cam</h5>
+                <p class="card-text text-danger">490,000 vnđ</p>
+              </div>
+            </div>
             <!-- The Modal -->
             <div class="modal fade" id="myModalOrangeBlossomHoney">
               <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">Mật ong hoa cam</h4>
+                    <h5 class="modal-title">Mật ong hoa cam</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -582,7 +668,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -590,25 +676,32 @@
               </div>
             </div>
           </div>
-          <!-- Kid Honey -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <img
-              class="card-body img-fluid img-thumbnail w-75"
-              src="./img/products/honey-kid.webp"
-              alt="Kid Honey500gram"
-              data-bs-toggle="modal"
-              data-bs-target="#myModalKidHoney"
-            />
-            <h4 class="card-text mt-2">Mật ong trẻ em</h4>
-            <p class="card-text text-danger fw-bold">490,000 vnđ</p>
+          <!-- End of Orange Blossom Honey -->
 
+          <!-- Kid Honey -->
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/products/honey-kid.webp"
+                  alt="Kid Honey500gram"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModalKidHoney"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Mật ong trẻ em</h5>
+                <p class="card-text text-danger">490,000 vnđ</p>
+              </div>
+            </div>
             <!-- The Modal -->
             <div class="modal fade" id="myModalKidHoney">
               <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">Mật ong trẻ em</h4>
+                    <h5 class="modal-title">Mật ong trẻ em</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -621,7 +714,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -629,28 +722,36 @@
               </div>
             </div>
           </div>
+          <!-- End of Kid Honey -->
+
           <!-- Olive Oil -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <img
-              class="card-body img-fluid img-thumbnail w-75"
-              src="./img/products/olive.webp"
-              alt="Olive750ml"
-              data-bs-toggle="modal"
-              data-bs-target="#myModalOlive750"
-            />
-            <h4 class="card-text mt-2">Dầu Ô liu hữu cơ</h4>
-            <p class="card-text text-danger fw-bold">
-              184,000 vnđ (250ml)<br />
-              252,000 vnđ (500ml)<br />
-              344,000 vnđ (750ml)
-            </p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/products/olive.webp"
+                  alt="Olive750ml"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModalOlive750"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Dầu Ô liu hữu cơ</h5>
+                <p class="card-text text-danger">
+                  184,000 vnđ (250ml)<br />
+                  252,000 vnđ (500ml)<br />
+                  344,000 vnđ (750ml)
+                </p>
+              </div>
+            </div>
             <!-- The Modal -->
             <div class="modal fade" id="myModalOlive750">
               <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">Dầu Ô liu hữu cơ</h4>
+                    <h5 class="modal-title">Dầu Ô liu hữu cơ</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -663,7 +764,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -671,28 +772,34 @@
               </div>
             </div>
           </div>
+          <!-- End of Olive Oil -->
         </div>
+        <!-- End of Danh mục sản phẩm -->
 
         <!-- Quà tặng 8-3-2023 -->
-        <div class="row text-center mt-5">
+        <div class="row mt-5">
           <div class="col-12 section-intro">
             <div class="topic">Quà tặng "KHỦNG" nhân dịp 8/3</div>
-            <h4>Hàng Úc chính hãng - Giá rất ưu đãi - Quà tặng hấp dẫn!!!</h4>
+            <h5>Hàng Úc chính hãng - Giá rất ưu đãi - Quà tặng hấp dẫn!!!</h5>
             <div class="hline mb-5"></div>
           </div>
 
           <!-- BNSC368 -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/8-3/368@0.75x.webp"
-                alt="BNSC368"
-                data-bs-toggle="modal"
-                data-bs-target="#BNSC368"
-              />
-              <h4 class="card-text mt-2">BNSC368</h4>
-              <p class="card-text text-danger fw-bold">689,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/8-3/368@0.75x.webp"
+                  alt="BNSC368"
+                  data-bs-toggle="modal"
+                  data-bs-target="#BNSC368"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">BNSC368</h5>
+                <p class="card-text text-danger">689,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="BNSC368">
@@ -700,7 +807,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">BNSC368</h4>
+                    <h5 class="modal-title">BNSC368</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -713,7 +820,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -721,19 +828,23 @@
               </div>
             </div>
           </div>
-
+          <!-- End of BNSC368 -->
           <!-- BNSC666 -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/8-3/666@0.75x.webp"
-                alt="BNSC666"
-                data-bs-toggle="modal"
-                data-bs-target="#BNSC666"
-              />
-              <h4 class="card-text mt-2">BNSC666</h4>
-              <p class="card-text text-danger fw-bold">1,652,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/8-3/666@0.75x.webp"
+                  alt="BNSC666"
+                  data-bs-toggle="modal"
+                  data-bs-target="#BNSC666"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">BNSC666</h5>
+                <p class="card-text text-danger">1,652,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="BNSC666">
@@ -741,7 +852,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">BNSC666</h4>
+                    <h5 class="modal-title">BNSC666</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -754,7 +865,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -762,19 +873,24 @@
               </div>
             </div>
           </div>
+          <!-- End of BNSC666 -->
 
           <!-- BNSC888 -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/8-3/888@0.75x.webp"
-                alt="BNSC888"
-                data-bs-toggle="modal"
-                data-bs-target="#BNSC888"
-              />
-              <h4 class="card-text mt-2">BNSC888</h4>
-              <p class="card-text text-danger fw-bold">2,066,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/8-3/888@0.75x.webp"
+                  alt="BNSC888"
+                  data-bs-toggle="modal"
+                  data-bs-target="#BNSC888"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">BNSC888</h5>
+                <p class="card-text text-danger">2,066,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="BNSC888">
@@ -782,7 +898,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">BNSC888</h4>
+                    <h5 class="modal-title">BNSC888</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -795,7 +911,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -803,19 +919,24 @@
               </div>
             </div>
           </div>
+          <!-- End of BNSC888 -->
 
           <!-- Combo mật ong 4 vị -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/8-3/ComboMatOng4Vi.webp"
-                alt="Combo mat ong 4 vi"
-                data-bs-toggle="modal"
-                data-bs-target="#COMBOMATONGUC"
-              />
-              <h4 class="card-text mt-2">COMBO MẬT ONG ÚC</h4>
-              <p class="card-text text-danger fw-bold">1,776,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/8-3/ComboMatOng4Vi.webp"
+                  alt="Combo mat ong 4 vi"
+                  data-bs-toggle="modal"
+                  data-bs-target="#COMBOMATONGUC"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">COMBO MẬT ONG ÚC</h5>
+                <p class="card-text text-danger">1,776,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="COMBOMATONGUC">
@@ -823,7 +944,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">COMBO MẬT ONG ÚC</h4>
+                    <h5 class="modal-title">COMBO MẬT ONG ÚC</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -836,7 +957,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -844,20 +965,24 @@
               </div>
             </div>
           </div>
+          <!-- End of Combo mật ong 4 vị -->
 
           <!-- BNSC MO-01 -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/8-3/MatOngTreEm.webp"
-                alt="BNSC MO-01"
-                data-bs-toggle="modal"
-                data-bs-target="#BNSCMO-01"
-              />
-
-              <h4 class="card-text mt-2">BNSC MO-01</h4>
-              <p class="card-text text-danger fw-bold">490,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/8-3/MatOngTreEm.webp"
+                  alt="BNSC MO-01"
+                  data-bs-toggle="modal"
+                  data-bs-target="#BNSCMO-01"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">BNSC MO-01</h5>
+                <p class="card-text text-danger">490,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="BNSCMO-01">
@@ -865,7 +990,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">BNSC MO-01</h4>
+                    <h5 class="modal-title">BNSC MO-01</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -878,7 +1003,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -886,19 +1011,24 @@
               </div>
             </div>
           </div>
+          <!-- End of BNSC MO-01 -->
 
           <!-- BNSC OL-01 -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/8-3/Oliu 750ml@0.75x.webp"
-                alt="BNSC OL-01"
-                data-bs-toggle="modal"
-                data-bs-target="#BNSCOL-01"
-              />
-              <h4 class="card-text mt-2">BNSC OL-01</h4>
-              <p class="card-text text-danger fw-bold">344,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/8-3/Oliu 750ml@0.75x.webp"
+                  alt="BNSC OL-01"
+                  data-bs-toggle="modal"
+                  data-bs-target="#BNSCOL-01"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">BNSC OL-01</h5>
+                <p class="card-text text-danger">344,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="BNSCOL-01">
@@ -906,7 +1036,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">BNSC OL-01</h4>
+                    <h5 class="modal-title">BNSC OL-01</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -919,7 +1049,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -927,19 +1057,24 @@
               </div>
             </div>
           </div>
+          <!-- End of BNSC OL-01 -->
 
           <!-- BNSC TPK-02 -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/8-3/SetHanhNhanNguCoc.webp"
-                alt="BNSC TPK-02"
-                data-bs-toggle="modal"
-                data-bs-target="#BNSCTPK-02"
-              />
-              <h4 class="card-text mt-2">BNSC TPK-02</h4>
-              <p class="card-text text-danger fw-bold">361,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/8-3/SetHanhNhanNguCoc.webp"
+                  alt="BNSC TPK-02"
+                  data-bs-toggle="modal"
+                  data-bs-target="#BNSCTPK-02"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">BNSC TPK-02</h5>
+                <p class="card-text text-danger">361,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="BNSCTPK-02">
@@ -947,7 +1082,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">BNSC TPK-02</h4>
+                    <h5 class="modal-title">BNSC TPK-02</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -960,7 +1095,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -968,19 +1103,24 @@
               </div>
             </div>
           </div>
+          <!-- End of BNSC TPK-02 -->
 
           <!-- BNSC MO-02 -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/8-3/SetMatOngDoi.webp"
-                alt="BNSC MO-02"
-                data-bs-toggle="modal"
-                data-bs-target="#BNSCMO-02"
-              />
-              <h4 class="card-text mt-2">BNSC MO-02</h4>
-              <p class="card-text text-danger fw-bold">980,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/8-3/SetMatOngDoi.webp"
+                  alt="BNSC MO-02"
+                  data-bs-toggle="modal"
+                  data-bs-target="#BNSCMO-02"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">BNSC MO-02</h5>
+                <p class="card-text text-danger">980,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="BNSCMO-02">
@@ -988,7 +1128,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">BNSC MO-02</h4>
+                    <h5 class="modal-title">BNSC MO-02</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -1001,7 +1141,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -1009,19 +1149,24 @@
               </div>
             </div>
           </div>
+          <!-- End of BNSC MO-02 -->
 
           <!-- BNSC OL-02 -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/8-3/SetOlive.webp"
-                alt="BNSC OL-02"
-                data-bs-toggle="modal"
-                data-bs-target="#BNSCOL-02"
-              />
-              <h4 class="card-text mt-2">BNSC OL-02</h4>
-              <p class="card-text text-danger fw-bold">688,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/8-3/SetOlive.webp"
+                  alt="BNSC OL-02"
+                  data-bs-toggle="modal"
+                  data-bs-target="#BNSCOL-02"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">BNSC OL-02</h5>
+                <p class="card-text text-danger">688,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="BNSCOL-02">
@@ -1029,7 +1174,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">BNSC OL-02</h4>
+                    <h5 class="modal-title">BNSC OL-02</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -1042,7 +1187,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -1050,19 +1195,24 @@
               </div>
             </div>
           </div>
+          <!-- End of BNSC OL-02 -->
 
           <!-- BNSC SPL-02 -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/8-3/SetSparkling.webp"
-                alt="BNSC SPL-02"
-                data-bs-toggle="modal"
-                data-bs-target="#BNSCSPL02"
-              />
-              <h4 class="card-text mt-2">BNSC SPL-02</h4>
-              <p class="card-text text-danger fw-bold">612,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/8-3/SetSparkling.webp"
+                  alt="BNSC SPL-02"
+                  data-bs-toggle="modal"
+                  data-bs-target="#BNSCSPL02"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">BNSC SPL-02</h5>
+                <p class="card-text text-danger">612,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="BNSCSPL02">
@@ -1070,7 +1220,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">BNSC SPL-02</h4>
+                    <h5 class="modal-title">BNSC SPL-02</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -1083,7 +1233,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -1091,25 +1241,31 @@
               </div>
             </div>
           </div>
+          <!-- End of BNSC SPL-02 -->
         </div>
+        <!-- End of Quà tặng 8-3-2023 -->
 
         <!-- COMBO Hộp quà Tết 2023 -->
-        <div class="row text-center mt-5">
+        <div class="row mt-5">
           <div class="col-12 section-intro">
             <div class="topic">COMBO Hộp quà Tết 2023</div>
             <div class="hline mb-5"></div>
           </div>
           <!-- VIP 888 -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/vip888.webp"
-                data-bs-toggle="modal"
-                data-bs-target="#vip888"
-              />
-              <h4 class="card-text mt-2">VIP 888</h4>
-              <p class="card-text text-danger fw-bold">2,066,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid img-thumbnail w-75"
+                  src="./img/gallery/vip888.webp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#vip888"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">VIP 888</h5>
+                <p class="card-text text-danger">2,066,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="vip888">
@@ -1117,7 +1273,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">VIP 888</h4>
+                    <h5 class="modal-title">VIP 888</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -1126,7 +1282,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -1134,18 +1290,23 @@
               </div>
             </div>
           </div>
+          <!-- End of VIP 888 -->
 
           <!-- VIP COUPLE 888 -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/vipcouple-888.webp"
-                data-bs-toggle="modal"
-                data-bs-target="#vipcouple888"
-              />
-              <h4 class="card-text mt-2">VIP COUPLE 888</h4>
-              <p class="card-text text-danger fw-bold">4,132,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/vipcouple-888.webp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#vipcouple888"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">VIP COUPLE 888</h5>
+                <p class="card-text text-danger">4,132,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="vipcouple888">
@@ -1153,7 +1314,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">VIP COUPLE 888</h4>
+                    <h5 class="modal-title">VIP COUPLE 888</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -1166,7 +1327,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -1174,18 +1335,23 @@
               </div>
             </div>
           </div>
+          <!-- End of VIP COUPLE 888 -->
 
           <!-- VIP COUPLE 666 -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/vipcouple-666.webp"
-                data-bs-toggle="modal"
-                data-bs-target="#vipcouple666"
-              />
-              <h4 class="card-text mt-2">VIP COUPLE 666</h4>
-              <p class="card-text text-danger fw-bold">3,304,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/vipcouple-666.webp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#vipcouple666"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">VIP COUPLE 666</h5>
+                <p class="card-text text-danger">3,304,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="vipcouple666">
@@ -1193,7 +1359,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">VIP COUPLE 666</h4>
+                    <h5 class="modal-title">VIP COUPLE 666</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -1206,7 +1372,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -1214,18 +1380,23 @@
               </div>
             </div>
           </div>
+          <!-- End of VIP COUPLE 666 -->
 
           <!-- COMBO TET VIP 368 -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/combotet-vip368.webp"
-                data-bs-toggle="modal"
-                data-bs-target="#combotet-vip368"
-              />
-              <h4 class="card-text mt-2">COMBO TẾT VIP 368</h4>
-              <p class="card-text text-danger fw-bold">1,970,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/combotet-vip368.webp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#combotet-vip368"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-titl">COMBO TẾT VIP 368</h5>
+                <p class="card-text text-danger">1,970,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="combotet-vip368">
@@ -1233,7 +1404,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">COMBO TẾT VIP 368</h4>
+                    <h5 class="modal-title">COMBO TẾT VIP 368</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -1246,7 +1417,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -1254,18 +1425,23 @@
               </div>
             </div>
           </div>
+          <!-- End of COMBO TET VIP 368 -->
 
           <!-- COMBO TET VIP 568 -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/combotet-vip568.webp"
-                data-bs-toggle="modal"
-                data-bs-target="#combotet-vip568"
-              />
-              <h4 class="card-text mt-2">COMBO TẾT VIP 568</h4>
-              <p class="card-text text-danger fw-bold">1,970,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/combotet-vip568.webp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#combotet-vip568"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-titl">COMBO TẾT VIP 568</h5>
+                <p class="card-text text-danger">1,970,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="combotet-vip568">
@@ -1273,7 +1449,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">COMBO TẾT VIP 568</h4>
+                    <h5 class="modal-title">COMBO TẾT VIP 568</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -1286,7 +1462,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -1294,18 +1470,23 @@
               </div>
             </div>
           </div>
+          <!-- End of COMBO TET VIP 568 -->
 
           <!-- COMBO TET VIP 666 -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/combotet-vip666.webp"
-                data-bs-toggle="modal"
-                data-bs-target="#combotet-vip666"
-              />
-              <h4 class="card-text mt-2">COMBO TẾT VIP 666</h4>
-              <p class="card-text text-danger fw-bold">3,875,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/combotet-vip666.webp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#combotet-vip666"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">COMBO TẾT VIP 666</h5>
+                <p class="card-text text-danger">3,875,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="combotet-vip666">
@@ -1313,7 +1494,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">COMBO TẾT VIP 666</h4>
+                    <h5 class="modal-title">COMBO TẾT VIP 666</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -1326,7 +1507,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -1334,18 +1515,23 @@
               </div>
             </div>
           </div>
+          <!-- End of COMBO TET VIP 666 -->
 
           <!-- COMBO THIEN NHIEN AUSTRALIA -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/combo-thiennhien-australia.webp"
-                data-bs-toggle="modal"
-                data-bs-target="#combo-thiennhien-australia"
-              />
-              <h4 class="card-text mt-2">COMBO THIÊN NHIÊN AUSTRALIA</h4>
-              <p class="card-text text-danger fw-bold">2,529,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/combo-thiennhien-australia.webp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#combo-thiennhien-australia"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">COMBO THIÊN NHIÊN AUSTRALIA</h5>
+                <p class="card-text text-danger">2,529,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="combo-thiennhien-australia">
@@ -1353,7 +1539,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">COMBO THIÊN NHIÊN AUSTRALIA</h4>
+                    <h5 class="modal-title">COMBO THIÊN NHIÊN AUSTRALIA</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -1366,7 +1552,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -1374,18 +1560,23 @@
               </div>
             </div>
           </div>
+          <!-- End of COMBO THIEN NHIEN AUSTRALIA -->
 
           <!-- COMBO H5SP  -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/combo-h5sp.webp"
-                data-bs-toggle="modal"
-                data-bs-target="#comboh5sp"
-              />
-              <h4 class="card-text mt-2">COMBO H5SP</h4>
-              <p class="card-text text-danger fw-bold">1,059,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/combo-h5sp.webp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#comboh5sp"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">COMBO H5SP</h5>
+                <p class="card-text text-danger">1,059,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="comboh5sp">
@@ -1393,7 +1584,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">COMBO H5SP</h4>
+                    <h5 class="modal-title">COMBO H5SP</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -1406,7 +1597,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -1414,18 +1605,23 @@
               </div>
             </div>
           </div>
+          <!-- End of COMBO H5SP  -->
 
           <!-- COMBO H6SP -->
-          <div class="col-sm-6 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/combo-h6sp.webp"
-                data-bs-toggle="modal"
-                data-bs-target="#comboh6sp"
-              />
-              <h4 class="card-text mt-2">COMBO H6SP</h4>
-              <p class="card-text text-danger fw-bold">1,748,000 vnđ</p>
+          <div class="col-sm-6 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/combo-h6sp.webp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#comboh6sp"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">COMBO H6SP</h5>
+                <p class="card-text text-danger fw-bold">1,748,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="comboh6sp">
@@ -1433,7 +1629,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">COMBO H6SP</h4>
+                    <h5 class="modal-title">COMBO H6SP</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -1446,7 +1642,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -1454,25 +1650,31 @@
               </div>
             </div>
           </div>
+          <!-- End of COMBO H6SP -->
         </div>
+        <!-- End of COMBO Hộp quà Tết 2023 -->
 
         <!-- Giỏ quà Tết 2023 -->
-        <div class="row text-center mt-5">
+        <div class="row justify-content-center mt-5">
           <div class="col-12 section-intro">
             <div class="topic">Giỏ quà Tết 2023</div>
             <div class="hline mb-5"></div>
           </div>
           <!-- Mẫu 5SP -->
-          <div class="col-sm-12 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/mau5sp.webp"
-                data-bs-toggle="modal"
-                data-bs-target="#"
-              />
-              <h4 class="card-text mt-2">Mẫu 5SP</h4>
-              <p class="card-text text-danger fw-bold">1,059,000 vnđ</p>
+          <div class="col-sm-12 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/mau5sp.webp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Mẫu 5SP</h5>
+                <p class="card-text text-danger">1,059,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="mau5sp">
@@ -1480,7 +1682,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">MẪU 5SP</h4>
+                    <h5 class="modal-title">MẪU 5SP</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -1489,7 +1691,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -1498,16 +1700,20 @@
             </div>
           </div>
           <!-- Mẫu 6SP -->
-          <div class="col-sm-12 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/mau6sp.webp"
-                data-bs-toggle="modal"
-                data-bs-target="#"
-              />
-              <h4 class="card-text mt-2">MẪU 6SP</h4>
-              <p class="card-text text-danger fw-bold">1,748,000 vnđ</p>
+          <div class="col-sm-12 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/mau6sp.webp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">MẪU 6SP</h5>
+                <p class="card-text text-danger">1,748,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="mau6sp">
@@ -1515,7 +1721,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">MẪU 6SP</h4>
+                    <h5 class="modal-title">MẪU 6SP</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -1524,7 +1730,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -1533,17 +1739,21 @@
             </div>
           </div>
           <!-- Mẫu 10SP -->
-          <div class="col-sm-12 col-lg-4 mb-5">
-            <div class="mb-2">
-              <img
-                class="card-body img-fluid img-thumbnail w-75"
-                src="./img/gallery/mau10sp.webp"
-                alt="MAU 10SP"
-                data-bs-toggle="modal"
-                data-bs-target="#"
-              />
-              <h4 class="card-text mt-2">MẪU 10SP</h4>
-              <p class="card-text text-danger fw-bold">2,507,000 vnđ</p>
+          <div class="col-sm-12 col-lg-3 mb-5">
+            <div class="card w-75">
+              <div class="innerProduct">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./img/gallery/mau10sp.webp"
+                  alt="MAU 10SP"
+                  data-bs-toggle="modal"
+                  data-bs-target="#"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">MẪU 10SP</h5>
+                <p class="card-text text-danger">2,507,000 vnđ</p>
+              </div>
             </div>
             <!-- The Modal -->
             <div class="modal fade" id="mau10sp">
@@ -1551,7 +1761,7 @@
                 <div class="modal-content">
                   <!-- Modal Header -->
                   <div class="modal-header">
-                    <h4 class="modal-title">MẪU 10SP</h4>
+                    <h5 class="modal-title">MẪU 10SP</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                   </div>
                   <!-- Modal body -->
@@ -1560,7 +1770,7 @@
                   </div>
                   <!-- Modal footer -->
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">
                       Đóng
                     </button>
                   </div>
@@ -1569,6 +1779,7 @@
             </div>
           </div>
         </div>
+        <!-- End of Giỏ quà Tết 2023 -->
       </div>
     </section>
     <!-- End of Product section -->
@@ -1578,11 +1789,11 @@
       <div class="footer-top">
         <div class="container mt-5">
           <div class="row">
-            <div class="col-lg-4 col-md-12 mb-5">
+            <div class="col-lg-3 col-md-12 mb-5">
               <h2>CÔNG TY TNHH <br />THỰC PHẨM & GIẢI KHÁT BENISON</h2>
               <img src="./img/company-logos/logo.webp" alt="Logo Benison" class="d-inline-block" />
             </div>
-            <div class="col-lg-4 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5">
               <h5>Về chúng tôi</h5>
               <div class="footer-links">
                 <a href="./about.html">Giới thiệu</a>
@@ -1591,7 +1802,7 @@
                 <a href="./contact.html">Liên hệ</a>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5">
               <h5>Liên hệ</h5>
               <div class="footer-links">
                 <p>

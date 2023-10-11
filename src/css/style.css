@@ -36,22 +36,11 @@ img {
 }
 
 /* Modal popup on page load */
-.modal h1 {
-  color: red;
+.modal-title {
+  color: #174821;
   font-weight: 700;
   font-size: 24px;
-}
-
-.modal-footer a {
-  font-size: 24px;
-  border: 1px solid red;
-  color: red;
-}
-
-.modal-footer a:hover {
-  color: yellow;
-  background-color: #174821;
-  border: 1px solid #174821;
+  text-transform: uppercase;
 }
 /* End Modal popup on page load */
 
@@ -203,10 +192,10 @@ p {
 
 .btn {
   font-weight: 600;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   margin-right: 1.2rem;
-  padding: 1.2rem 2.8rem;
+  padding: 1.2rem 2.4rem;
   border-radius: 0.4rem;
   letter-spacing: 0.2rem;
   color: #174821;
@@ -217,29 +206,6 @@ p {
   background-color: #174821;
   color: #ffffff;
   transition: all 0.4s ease-in-out;
-}
-
-.card-title {
-  padding-bottom: 1.4rem;
-  text-transform: uppercase;
-  color: #174821;
-  font-size: 1.8rem;
-  font-weight: 700;
-}
-
-.card-text {
-  display: -webkit-box;
-  min-height: 4.8rem;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: normal;
-  -webkit-line-clamp: 2;
-  line-height: 2.4rem;
-
-  font-size: 1.6rem;
-  text-align: left;
-  margin-bottom: 2rem;
 }
 
 section {
@@ -342,13 +308,42 @@ iframe {
 }
 
 .card-body {
-  border-radius: 0.8rem;
+  padding-top: 2rem;
+  min-height: 14rem;
+  background-color: #fbfbfb;
 }
+
 .card-body:hover {
   -webkit-box-shadow: 0 0 0.8rem 0.4rem rgba(23, 72, 33, 0.06);
   box-shadow: 0 0 0.8rem 0.4rem rgba(23, 72, 33, 0.09);
-  cursor: pointer;
   transition: all 0.4s;
+}
+
+.card-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  min-height: 3.6rem;
+
+  text-transform: uppercase;
+  color: #174821;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.card-text {
+  display: -webkit-box;
+  min-height: 4.8rem;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: 3;
+  line-height: 2.4rem;
+
+  font-size: 1.2rem;
+  text-align: left;
+  margin-bottom: 2rem;
 }
 
 #featured {
@@ -391,15 +386,25 @@ iframe {
   color: #174821;
   transition: all 0.4s;
 }
-
+.innerProduct {
+  overflow: hidden;
+}
 .inner {
   overflow: hidden;
+}
+.innerProduct img {
+  transition: all 1.5s ease;
 }
 .inner img {
   transition: all 1.5s ease;
 }
+
 .inner:hover img {
   transform: scale(1.5);
+}
+.innerProduct:hover img {
+  transform: scale(1.5);
+  cursor: pointer;
 }
 
 /* Responsive */
