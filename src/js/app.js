@@ -14,6 +14,7 @@ const yearEl = document.querySelector('.year');
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
 
+/*
 $(document).ready(function () {
   $('#slider .owl-carousel').owlCarousel({
     loop: true, // khong lap lai slide
@@ -39,6 +40,8 @@ $(document).ready(function () {
     },
   });
 });
+*/
+
 // $('#slider .owl-carousel').owlCarousel({
 //     loop:true,
 //     margin:10,
