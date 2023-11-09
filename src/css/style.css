@@ -444,8 +444,8 @@ iframe {
   }
 
   iframe {
-    width: 36rem;
-    height: 20rem;
+    /* width: 36rem;
+    height: 20rem; */
   }
 
   .companyName {
