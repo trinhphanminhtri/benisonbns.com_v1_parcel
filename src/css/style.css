@@ -447,7 +447,7 @@ iframe {
   }
   iframe {
     width: 36rem;
-    height: 20rem;
+    height: 16rem;
     display: block;
     margin: auto;
   }
@@ -459,17 +459,15 @@ iframe {
     padding: 0.5rem;
   }
 
-  iframe {
-    width: 32rem;
-    height: 18rem;
-    display: block;
-    margin: auto;
-  }
-
   .companyName {
     font-size: 8rem;
   }
-
+  iframe {
+    width: 30rem;
+    height: 16rem;
+    display: block;
+    margin: auto;
+  }
   .btn {
     font-weight: 600;
     font-size: 1.2rem;
