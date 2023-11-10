@@ -420,7 +420,7 @@ iframe {
 
   iframe {
     width: 64rem;
-    height: 38rem;
+    height: 36rem;
     display: block;
     margin: auto;
   }
@@ -446,8 +446,8 @@ iframe {
     font-size: 10rem;
   }
   iframe {
-    width: 36rem;
-    height: 16rem;
+    width: 50rem;
+    height: 28rem;
     display: block;
     margin: auto;
   }
@@ -463,8 +463,8 @@ iframe {
     font-size: 8rem;
   }
   iframe {
-    width: 30rem;
-    height: 16rem;
+    width: 36rem;
+    height: 20rem;
     display: block;
     margin: auto;
   }
