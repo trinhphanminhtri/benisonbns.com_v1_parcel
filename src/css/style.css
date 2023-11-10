@@ -210,7 +210,7 @@ p {
 
 section {
   padding-top: 2rem;
-  padding-bottom: 8rem;
+  padding-bottom: 2rem;
 }
 
 .section-intro {
@@ -296,11 +296,6 @@ section {
   width: 40%;
 }
 
-iframe {
-  width: 100%;
-  height: 32rem;
-}
-
 .media img {
   object-fit: cover;
   width: 100%;
@@ -354,12 +349,13 @@ iframe {
 }
 
 .featured-box {
-  width: calc(12% - 10px);
+  width: 15%;
+  /* width: calc(12% - 10px); */
   text-align: center;
-  padding: 1rem 0.5rem;
+  padding: 0.5rem;
   box-shadow: 0 0 0.2rem 0.2rem rgba(0, 0, 0, 0.06);
   border-radius: 0.8rem;
-  margin: 1rem 2rem;
+  margin: 0 2rem;
 }
 
 .featured-box:hover {
@@ -369,7 +365,6 @@ iframe {
 }
 
 .featured-box img {
-  margin-bottom: 1rem;
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -381,6 +376,7 @@ iframe {
   color: #f08c00;
   transition: all 0.4s;
   letter-spacing: 0.1rem;
+  padding-top: 1rem;
 }
 .featured-box h4:hover {
   color: #174821;
@@ -407,17 +403,26 @@ iframe {
   cursor: pointer;
 }
 
+iframe {
+  display: block;
+  width: 700px;
+  height: 380px;
+  margin: auto;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   #featured .featured-box {
     width: calc(20% - 5px);
-    margin: 0 1rem;
+    margin: 0 2rem;
     padding: 0.5rem;
   }
 
   iframe {
-    width: 56rem;
-    height: 32rem;
+    width: 70rem;
+    height: 38rem;
+    display: block;
+    margin: auto;
   }
 
   .btn {
@@ -432,20 +437,33 @@ iframe {
   }
 }
 @media (max-width: 640px) {
+  #featured .featured-box {
+    width: calc(36% - 5px);
+    margin: 0 2rem;
+    padding: 0.5rem;
+  }
   .companyName {
     font-size: 10rem;
+  }
+  iframe {
+    width: 40rem;
+    height: 20rem;
+    display: block;
+    margin: auto;
   }
 }
 @media (max-width: 425px) {
   #featured .featured-box {
-    width: 50%;
-    margin: 0.5rem;
+    width: 35%;
+    margin: 0 2rem;
     padding: 0.5rem;
   }
 
   iframe {
-    /* width: 36rem;
-    height: 20rem; */
+    width: 34rem;
+    height: 18rem;
+    display: block;
+    margin: auto;
   }
 
   .companyName {
