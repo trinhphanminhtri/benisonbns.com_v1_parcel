@@ -35,6 +35,13 @@ img {
   object-fit: cover;
 }
 
+iframe {
+  display: block;
+  width: 420px;
+  height: 240px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* Modal popup on page load */
 .modal-title {
   color: #174821;
@@ -83,6 +90,7 @@ img {
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
 #hero-about {
@@ -95,6 +103,7 @@ img {
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #hero-contact {
@@ -108,6 +117,7 @@ img {
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #hero-stockist {
@@ -121,6 +131,7 @@ img {
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #hero-products {
@@ -135,6 +146,7 @@ img {
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #hero-media {
@@ -149,11 +161,12 @@ img {
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .companyName {
   font-family: 'HLT-Poem-Script-Pro';
-  font-size: 22rem;
+  font-size: 16rem;
   font-weight: 600;
   color: whitesmoke;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -162,7 +175,7 @@ img {
 .topic {
   text-transform: uppercase;
   color: #174821;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   font-weight: 500;
 }
 
@@ -170,24 +183,23 @@ img {
   padding-bottom: 1.4rem;
   text-transform: uppercase;
   color: #174821;
-  font-size: 2.2rem;
-  font-weight: 700;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 .subTitle {
   padding-bottom: 1.4rem;
   color: #174821;
-  font-size: 1.6rem;
-  font-weight: 500;
-  width: 80%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
 }
 
 p {
   font-weight: 400;
-  font-size: 1.6rem;
-  text-align: left;
+  font-size: 1.4rem;
 }
 
 .btn {
@@ -232,7 +244,7 @@ section {
 
 .footer-top h2 {
   color: #f5ff35;
-  font-size: 2.2rem;
+  font-size: 2rem;
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.1rem;
@@ -254,13 +266,13 @@ section {
 .footer-bottom {
   background-color: #0d2d13;
   color: grey;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 
 .footer-links {
   line-height: 2.2;
   color: whitesmoke;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 .footer-links .active {
@@ -347,7 +359,6 @@ section {
   justify-content: center;
   flex-wrap: wrap;
 }
-
 .featured-box {
   width: 15%;
   /* width: calc(12% - 10px); */
@@ -357,7 +368,6 @@ section {
   border-radius: 0.8rem;
   margin: 0 2rem;
 }
-
 .featured-box:hover {
   box-shadow: 0 0 0.8rem 0.4rem rgba(23, 72, 33, 0.09);
   transition: all 0.4s;
@@ -369,7 +379,6 @@ section {
   height: auto;
   object-fit: cover;
 }
-
 .featured-box h4 {
   display: inline-block;
   font-size: 1.6rem;
@@ -403,13 +412,6 @@ section {
   cursor: pointer;
 }
 
-iframe {
-  display: block;
-  width: 640px;
-  height: 360px;
-  margin: auto;
-}
-
 /* Responsive */
 @media (max-width: 768px) {
   #featured .featured-box {
@@ -417,14 +419,6 @@ iframe {
     margin: 0 2rem;
     padding: 0.5rem;
   }
-
-  iframe {
-    width: 64rem;
-    height: 36rem;
-    display: block;
-    margin: auto;
-  }
-
   .btn {
     font-weight: 600;
     font-size: 1.4rem;
@@ -434,6 +428,13 @@ iframe {
   }
   .companyName {
     font-size: 12rem;
+  }
+  .topic {
+    font-size: 2.2rem;
+  }
+  iframe {
+    width: 320px;
+    height: 180px;
   }
 }
 @media (max-width: 640px) {
@@ -445,11 +446,13 @@ iframe {
   .companyName {
     font-size: 10rem;
   }
+
+  .topic {
+    font-size: 2rem;
+  }
   iframe {
-    width: 50rem;
-    height: 28rem;
-    display: block;
-    margin: auto;
+    width: 420px;
+    height: 240px;
   }
 }
 @media (max-width: 425px) {
@@ -462,17 +465,19 @@ iframe {
   .companyName {
     font-size: 8rem;
   }
-  iframe {
-    width: 36rem;
-    height: 20rem;
-    display: block;
-    margin: auto;
-  }
   .btn {
     font-weight: 600;
     font-size: 1.2rem;
     margin-right: 0.8rem;
     padding: 0.8rem 2.4rem;
     border-radius: 0.6rem;
+  }
+
+  .topic {
+    font-size: 1.8rem;
+  }
+  iframe {
+    width: 260px;
+    height: 150px;
   }
 }

@@ -10,7 +10,7 @@
   "description": "BENISON FOOD & BEVERAGE COMPANY LIMITED",
   "scripts": {
     "prebuild": "rimraf dist benisonbns.com .parcel-cache parcel-bundle-reports",
-    "dev": "parcel --open opera --port 666",
+    "dev": "parcel --open chrome --port 666",
     "build": "parcel build --public-url ./ --detailed-report 100"
   },
   "source": [
