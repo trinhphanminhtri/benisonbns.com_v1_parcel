@@ -18,7 +18,15 @@
     "src/contact.html",
     "src/index.html",
     "src/products.html",
-    "src/media.html"
+    "src/media.html",
+    "src/media-catalogue.html",
+    "src/media-chi-nhanh.html",
+    "src/media-cosmetic.html",
+    "src/media-nhap-khau.html",
+    "src/media-sparkling.html",
+    "src/media-suc-khoe.html",
+    "src/media-video.html",
+    "src/media-wine.html"
   ],
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "targets": {
